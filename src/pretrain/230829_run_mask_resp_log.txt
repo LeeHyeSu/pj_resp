@@ -1,0 +1,69 @@
++ . /data/sls/scratch/share-201907/slstoolchainrc
+./run_mask_resp.sh: line 15: /data/sls/scratch/share-201907/slstoolchainrc: No such file or directory
++ source /data/sls/scratch/yuangong/sslast2/sslast2/bin/activate
+./run_mask_resp.sh: line 16: /data/sls/scratch/yuangong/sslast2/sslast2/bin/activate: No such file or directory
++ export TORCH_HOME=../../pretrained_models
++ TORCH_HOME=../../pretrained_models
++ mkdir exp
+mkdir: cannot create directory ‘exp’: File exists
++ mkdir slurm_log
+mkdir: cannot create directory ‘slurm_log’: File exists
++ '[' -e SSAST-Base-Patch-400.pth ']'
++ echo 'pretrained model already downloaded.'
+pretrained model already downloaded.
++ pretrain_model=SSAST-Base-Patch-400
++ pretrain_path=./SSAST-Base-Patch-400.pth
++ task=pretrain_joint
++ mask_patch=400
++ dataset=ihc
++ tr_data=/workspace/pj_resp/ssast/src/pretrain/data/icbhi_hflungv1_chestwall.json
++ te_data=/workspace/pj_resp/ssast/src/pretrain/data/icbhi/icbhi_eval.json
++ dataset_mean=-4.2677393
++ dataset_std=4.5689974
++ target_length=512
++ num_mel_bins=128
++ model_size=base
++ fshape=16
++ tshape=16
++ fstride=16
++ tstride=16
++ bal=none
++ batch_size=24
++ lr=1e-4
++ lr_patience=2
++ epoch=10
++ freqm=0
++ timem=0
++ mixup=0
++ exp_dir=./exp/230829_mask01-base-f16-t16-b24-lr1e-4-m400-pretrain_joint-ihc
++ CUDA_CACHE_DISABLE=1
++ python -W ignore ../run.py --dataset ihc --data-train /workspace/pj_resp/ssast/src/pretrain/data/icbhi_hflungv1_chestwall.json --data-val /workspace/pj_resp/ssast/src/pretrain/data/icbhi/icbhi_eval.json --exp-dir ./exp/230829_mask01-base-f16-t16-b24-lr1e-4-m400-pretrain_joint-ihc --label-csv ./data/icbhi_class_labels_indices.csv --lr 1e-4 --n-epochs 10 --batch-size 24 --save_model True --freqm 0 --timem 0 --mixup 0 --bal none --tstride 16 --fstride 16 --fshape 16 --tshape 16 --dataset_mean -4.2677393 --dataset_std 4.5689974 --target_length 512 --num_mel_bins 128 --model_size base --mask_patch 400 --n-print-steps 100 --task pretrain_joint --lr_patience 2 --epoch_iter 4000
+I am process 1666, running on 5ca684c6c90d: starting (Tue Aug 29 07:33:21 2023)
+balanced sampler is not used
+---------------the train dataloader---------------
+now using following mask: 0 freq, 0 time
+now using mix-up with rate 0.000000
+now process ihc
+use dataset mean -4.268 and std 4.569 to normalize the input.
+number of classes is 4
+---------------the evaluation dataloader---------------
+now using following mask: 0 freq, 0 time
+now using mix-up with rate 0.000000
+now process ihc
+use dataset mean -4.268 and std 4.569 to normalize the input.
+number of classes is 4
+Now train with ihc with 16999 training samples, evaluate with 2756 samples
+The num_mel_bins 128 and fshape 16 are different, not masking a typical time frame, using cluster masking.
+pretraining patch split stride: frequency=16, time=16
+pretraining patch shape: frequency=16, time=16
+pretraining patch array dimension: frequency=8, time=32
+pretraining number of patches=256
+
+Creating experiment directory: ./exp/230829_mask01-base-f16-t16-b24-lr1e-4-m400-pretrain_joint-ihc
+Now starting self-supervised pretraining for 10 epochs
+Now running on : cuda
+Total parameter number is : 88.566738000 million
+Total trainable parameter number is : 88.566736000 million
+current #steps=0, #epochs=1
+start training...
+2023-08-29 07:33:44.047804

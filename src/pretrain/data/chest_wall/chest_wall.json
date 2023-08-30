@@ -1,0 +1,1348 @@
+{
+ "data": [
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP64_asthma_E-W_P-L-U_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP86_N_N_P-R-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP105_Lung-Fibrosis_Crep_A-U-R_44_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP89_N_N_P-L-M_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP112_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP53_asthma_E-W_P-R-M_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP107_Asthma_E-W_P-L-U_59_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP67_heart-failure_Crep_P-R-L-_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP96_N_N_P-R-L-_66_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP59_heart-failure_Crep_P-R-L-_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP109_N_N_P-L-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP69_pneumonia_Bronchial_P-R-L-_64_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP21_BRON_Crep_P-R-L-_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP57_COPD_E-W_P-R-L-_42_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP42_heart-failure_Crep_P-L-L_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP63_COPD_E-W_P-R-L-_58_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP32_N_N_A-R-L_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP28_BRON_Crep_P-L-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP53_asthma_E-W_P-R-M_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP85_N_N_A-R-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP27_asthma_E-W_P-R-M_53_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP55_asthma_E-W_P-R-U_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP77_Asthma_E-W_A-R-L_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP24_heart-failure_Crep_P-R-L-_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP7_Heart-Failure-+-COPD_I-C-E-W_P-L-R_65_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP112_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP92_N_N_P-L-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP85_N_N_A-R-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP82_N_N_P-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP1_Asthma_I-E-W_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP41_pneumonia_Crep_P-R-M_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP96_N_N_P-R-L-_66_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP76_N_N_A-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP12_Asthma_E-W_P-L-L_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP84_N_N_A-R-U_65_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP57_COPD_E-W_P-R-L-_42_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP90_heart-failure_Crep_P-L-M_74_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP84_N_N_A-R-U_65_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP78_Asthma_E-W_P-R-M_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP22_BRON_Crep_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP80_asthma_E-W_A-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP25_copd_E-W_P-L-L_76_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP44_asthma_E-W_P-R-U_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP61_COPD_E-W_P-R-L-_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP64_asthma_E-W_P-L-U_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP48_N_N_P-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP58_asthma_E-W_P-L-M_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP91_asthma_E-W_P-R-U_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP75_N_N_P-L-U_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP33_Asthma_E-W_P-R-M_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP22_BRON_Crep_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP35_Asthma_E-W_A-R-L_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP5_Heart-Failure-+-COPD_I-C-E-W_P-L-R-_71_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP46_asthma_E-W_P-L-U_41_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP95_N_N_P-L-M_18_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP92_N_N_P-L-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP48_N_N_P-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP26_Lung-Fibrosis_Crep_P_90_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP17_COPD_E-W_A-R-M_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP75_N_N_P-L-U_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP106_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP75_N_N_P-L-U_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP62_COPD_E-W_P-L-M_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP49_N_N_P-R-M_21_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP69_pneumonia_Bronchial_P-R-L-_64_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP89_N_N_P-L-M_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP94_N_N_P-L-L_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP34_heart-failure_Crep_P-R-M_78_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP17_COPD_E-W_A-R-M_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP24_heart-failure_Crep_P-R-L-_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP81_N_N_P-L-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP52_Lung-Fibrosis_Crep_P-L-L_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP102_N_N_P-L-L_41_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP41_pneumonia_Crep_P-R-M_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP33_Asthma_E-W_P-R-M_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP39_heart-failure_Crep_P-R-L-_67_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP16_heart-failure_C_P-R-U_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP38_Asthma_E-W_P-R-M_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP68_asthma_E-W_P-R-L-_21_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP71_N_N_P-R-U_36_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP3_Asthma_I-E-W_P-L-L-R_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP20_Asthma-and-lung-fibrosis_C_A-R-M_90_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP98_N_N_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP3_Asthma_I-E-W_P-L-L-R_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP99_N_N_P-R-M_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP79_asthma_E-W_A-R-U_46_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP29_heart-failure_Crep_P-L-L_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP35_Asthma_E-W_A-R-L_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP86_N_N_P-R-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP60_heart-failure_Crep_P-L-L_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP58_asthma_E-W_P-L-M_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP89_N_N_P-L-M_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP45_heart-failure_Crep_P-R-L-_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP27_asthma_E-W_P-R-M_53_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP14_Heart-Failure_C_A-R-M_54_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP90_heart-failure_Crep_P-L-M_74_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP101_Asthma_E-W_P-L-M_12_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP29_heart-failure_Crep_P-L-L_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP12_Asthma_E-W_P-L-L_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP45_heart-failure_Crep_P-R-L-_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP11_Heart-Failure_C_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP40_heart-failure_Crep_A-R-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP104_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP99_N_N_P-R-M_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP97_Asthma_E-W_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP94_N_N_P-L-L_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP81_N_N_P-L-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP47_asthma_E-W_P-L-M_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP37_pneumonia_Crep_A-R-L_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP63_COPD_E-W_P-R-L-_58_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP36_pneumonia_Crep_P-R-M_36_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP83_N_N_A-R-U_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP95_N_N_P-L-M_18_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP4_Heart-Failure-+-Lung-Fibrosis-_I-C_P-L-R_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP60_heart-failure_Crep_P-L-L_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP77_Asthma_E-W_A-R-L_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP23_Lung-Fibrosis_Crep_P-R-L-_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP49_N_N_P-R-M_21_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP112_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP71_N_N_P-R-U_36_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP26_Lung-Fibrosis_Crep_P_90_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP70_N_N_P-L-U_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP65_asthma_E-W_P-R-L-_60_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP24_heart-failure_Crep_P-R-L-_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP104_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP37_pneumonia_Crep_A-R-L_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP88_N_N_A-R-U_29_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP87_N_N_P-R-M_72_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP94_N_N_P-L-L_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP67_heart-failure_Crep_P-R-L-_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP9_Asthma_E-W_P-R-L-_59_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP48_N_N_P-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP50_N_N_P-R-L-_27_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP32_N_N_A-R-L_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP25_copd_E-W_P-L-L_76_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP71_N_N_P-R-U_36_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP70_N_N_P-L-U_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP91_asthma_E-W_P-R-U_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP59_heart-failure_Crep_P-R-L-_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP103_N_N_P-R-U_81_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP30_N_N_P-R-M_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP80_asthma_E-W_A-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP78_Asthma_E-W_P-R-M_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP93_N_N_P-R-M_75_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP8_Plueral-Effusion_I-C-B_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP54_heart-failure_Crep_P-R-L-_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP16_heart-failure_C_P-R-U_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP22_BRON_Crep_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP27_asthma_E-W_P-R-M_53_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP19_heart-failure_C_P-R-U_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP38_Asthma_E-W_P-R-M_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP42_heart-failure_Crep_P-L-L_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP20_Asthma-and-lung-fibrosis_C_A-R-M_90_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP41_pneumonia_Crep_P-R-M_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP51_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP93_N_N_P-R-M_75_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP108_COPD_E-W_P-R-L-_63_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP56_asthma_E-W_P-R-M_56_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP76_N_N_A-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP43_asthma_E-W_P-L-M_15_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP72_N_N_P-R-U_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP72_N_N_P-R-U_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP25_copd_E-W_P-L-L_76_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP105_Lung-Fibrosis_Crep_A-U-R_44_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP51_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP54_heart-failure_Crep_P-R-L-_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP109_N_N_P-L-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP92_N_N_P-L-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP8_Plueral-Effusion_I-C-B_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP30_N_N_P-R-M_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP15_Asthma_E-W_P-R-U_49_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP68_asthma_E-W_P-R-L-_21_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP9_Asthma_E-W_P-R-L-_59_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP82_N_N_P-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP62_COPD_E-W_P-L-M_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP13_Heart-Failure_C_P-L-L_55_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP110_COPD_E-W_P-L-L_62_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP103_N_N_P-R-U_81_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP10_Asthma_E-W_P-R-U_59_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP50_N_N_P-R-L-_27_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP84_N_N_A-R-U_65_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP74_N_N_P-R-M_74_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP67_heart-failure_Crep_P-R-L-_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP106_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP66_heart-failure_Crep_P-R-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP106_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP110_COPD_E-W_P-L-L_62_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP34_heart-failure_Crep_P-R-M_78_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP96_N_N_P-R-L-_66_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP10_Asthma_E-W_P-R-U_59_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP69_pneumonia_Bronchial_P-R-L-_64_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP60_heart-failure_Crep_P-L-L_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP78_Asthma_E-W_P-R-M_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP110_COPD_E-W_P-L-L_62_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP18_pneumonia_C_P-R-U_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP76_N_N_A-L-U_31_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP6_Plueral-Effusion_I-C-B_P-L-R_81_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP19_heart-failure_C_P-R-U_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP43_asthma_E-W_P-L-M_15_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP100_N_N_P-R-M_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP73_N_N_P-L-L_32_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP35_Asthma_E-W_A-R-L_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP101_Asthma_E-W_P-L-M_12_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP83_N_N_A-R-U_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP100_N_N_P-R-M_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP109_N_N_P-L-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP14_Heart-Failure_C_A-R-M_54_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP50_N_N_P-R-L-_27_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP15_Asthma_E-W_P-R-U_49_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP66_heart-failure_Crep_P-R-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP45_heart-failure_Crep_P-R-L-_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP97_Asthma_E-W_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP37_pneumonia_Crep_A-R-L_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP38_Asthma_E-W_P-R-M_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP4_Heart-Failure-+-Lung-Fibrosis-_I-C_P-L-R_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP31_N_N_P-L-M_27_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP11_Heart-Failure_C_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP51_N_N_P-L-M_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP15_Asthma_E-W_P-R-U_49_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP21_BRON_Crep_P-R-L-_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP47_asthma_E-W_P-L-M_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP36_pneumonia_Crep_P-R-M_36_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP95_N_N_P-L-M_18_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP74_N_N_P-R-M_74_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP12_Asthma_E-W_P-L-L_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP77_Asthma_E-W_A-R-L_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP64_asthma_E-W_P-L-U_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP18_pneumonia_C_P-R-U_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP43_asthma_E-W_P-L-M_15_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP82_N_N_P-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP107_Asthma_E-W_P-L-U_59_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP66_heart-failure_Crep_P-R-L-_43_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP39_heart-failure_Crep_P-R-L-_67_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP31_N_N_P-L-M_27_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP1_Asthma_I-E-W_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP63_COPD_E-W_P-R-L-_58_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP87_N_N_P-R-M_72_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP104_Asthma_E-W_P-L-U_45_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP90_heart-failure_Crep_P-L-M_74_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP34_heart-failure_Crep_P-R-M_78_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP2_Asthma_E-W_P-L-L-R_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP23_Lung-Fibrosis_Crep_P-R-L-_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP52_Lung-Fibrosis_Crep_P-L-L_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP59_heart-failure_Crep_P-R-L-_83_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP97_Asthma_E-W_P-R-U_24_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP56_asthma_E-W_P-R-M_56_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP33_Asthma_E-W_P-R-M_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP79_asthma_E-W_A-R-U_46_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP108_COPD_E-W_P-R-L-_63_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP5_Heart-Failure-+-COPD_I-C-E-W_P-L-R-_71_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP26_Lung-Fibrosis_Crep_P_90_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP72_N_N_P-R-U_24_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP87_N_N_P-R-M_72_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP108_COPD_E-W_P-R-L-_63_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP99_N_N_P-R-M_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP57_COPD_E-W_P-R-L-_42_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP55_asthma_E-W_P-R-U_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP56_asthma_E-W_P-R-M_56_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP54_heart-failure_Crep_P-R-L-_73_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP46_asthma_E-W_P-L-U_41_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP29_heart-failure_Crep_P-L-L_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP11_Heart-Failure_C_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP47_asthma_E-W_P-L-M_60_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP44_asthma_E-W_P-R-U_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP46_asthma_E-W_P-L-U_41_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP1_Asthma_I-E-W_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP20_Asthma-and-lung-fibrosis_C_A-R-M_90_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP111_COPD_E-W_P-R-L-_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP36_pneumonia_Crep_P-R-M_36_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP6_Plueral-Effusion_I-C-B_P-L-R_81_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP55_asthma_E-W_P-R-U_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP105_Lung-Fibrosis_Crep_A-U-R_44_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP53_asthma_E-W_P-R-M_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP102_N_N_P-L-L_41_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP13_Heart-Failure_C_P-L-L_55_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP81_N_N_P-L-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP88_N_N_A-R-U_29_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP49_N_N_P-R-M_21_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP23_Lung-Fibrosis_Crep_P-R-L-_50_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP40_heart-failure_Crep_A-R-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP13_Heart-Failure_C_P-L-L_55_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP111_COPD_E-W_P-R-L-_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP85_N_N_A-R-U_33_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP73_N_N_P-L-L_32_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP40_heart-failure_Crep_A-R-M_26_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP93_N_N_P-R-M_75_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP79_asthma_E-W_A-R-U_46_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP7_Heart-Failure-+-COPD_I-C-E-W_P-L-R_65_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP19_heart-failure_C_P-R-U_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP91_asthma_E-W_P-R-U_43_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP101_Asthma_E-W_P-L-M_12_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP88_N_N_A-R-U_29_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP80_asthma_E-W_A-L-U_38_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP86_N_N_P-R-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP107_Asthma_E-W_P-L-U_59_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP70_N_N_P-L-U_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP52_Lung-Fibrosis_Crep_P-L-L_76_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP17_COPD_E-W_A-R-M_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP10_Asthma_E-W_P-R-U_59_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP83_N_N_A-R-U_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP74_N_N_P-R-M_74_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP28_BRON_Crep_P-L-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP18_pneumonia_C_P-R-U_57_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP31_N_N_P-L-M_27_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP65_asthma_E-W_P-R-L-_60_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP98_N_N_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP61_COPD_E-W_P-R-L-_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP61_COPD_E-W_P-R-L-_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP21_BRON_Crep_P-R-L-_20_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP7_Heart-Failure-+-COPD_I-C-E-W_P-L-R_65_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP28_BRON_Crep_P-L-U_68_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP14_Heart-Failure_C_A-R-M_54_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP103_N_N_P-R-U_81_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP68_asthma_E-W_P-R-L-_21_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP102_N_N_P-L-L_41_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP65_asthma_E-W_P-R-L-_60_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP39_heart-failure_Crep_P-R-L-_67_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP4_Heart-Failure-+-Lung-Fibrosis-_I-C_P-L-R_72_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP5_Heart-Failure-+-COPD_I-C-E-W_P-L-R-_71_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP111_COPD_E-W_P-R-L-_51_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP3_Asthma_I-E-W_P-L-L-R_50_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP100_N_N_P-R-M_70_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP6_Plueral-Effusion_I-C-B_P-L-R_81_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP73_N_N_P-L-L_32_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP44_asthma_E-W_P-R-U_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP30_N_N_P-R-M_18_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP62_COPD_E-W_P-L-M_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP42_heart-failure_Crep_P-L-L_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP16_heart-failure_C_P-R-U_56_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP98_N_N_P-L-L_53_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/BP32_N_N_A-R-L_30_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP2_Asthma_E-W_P-L-L-R_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP8_Plueral-Effusion_I-C-B_P-L-L_70_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP58_asthma_E-W_P-L-M_40_M.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/EP2_Asthma_E-W_P-L-L-R_52_F.wav",
+   "label": "normal"
+  },
+  {
+   "wav": "/workspace/pj_resp/ssast/src/pretrain/data/chest_wall/audio_16k/DP9_Asthma_E-W_P-R-L-_59_M.wav",
+   "label": "normal"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
++ . /data/sls/scratch/share-201907/slstoolchainrc
+./run_icbhi.sh: line 15: /data/sls/scratch/share-201907/slstoolchainrc: No such file or directory
++ source ../../../venvssast/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/workspace/pj_resp/ssast/venvssast
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/workspace/pj_resp/ssast/venvssast/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/workspace/pj_resp/ssast/venvssast/bin:/workspace/pj_resp/ssast/venvssast/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(venvssast) ' '!=' x ']'
+++ PS1='(venvssast) '
+++ export PS1
+++ '[' -n /bin/bash -o -n '' ']'
+++ hash -r
++ export TORCH_HOME=../../pretrained_models
++ TORCH_HOME=../../pretrained_models
++ mkdir -p ./exp
++ '[' -e SSAST-Base-Patch-400.pth ']'
++ echo 'pretrained model already downloaded.'
+pretrained model already downloaded.
++ pretrain_exp=
++ pretrain_model=SSAST-Base-Patch-400
++ pretrain_path=.//SSAST-Base-Patch-400.pth
++ dataset=icbhi
++ dataset_mean=-4.2677393
++ dataset_std=4.5689974
++ target_length=798
++ noise=False
++ task=ft_avgtok
++ model_size=base
++ head_lr=1
++ bal=None
++ lr=5e-5
++ epoch=50
++ tr_data=./data/icbhi_train.json
++ te_data=./data/icbhi_eval.json
++ freqm=48
++ timem=160
++ mixup=0
++ fstride=10
++ tstride=10
++ fshape=16
++ tshape=16
++ batch_size=8
++ filename=230816_1
++ exp_dir=./exp/230816_1-icbhi-f10-16-t10-16-b8-lr5e-5-ft_avgtok-base--SSAST-Base-Patch-400-1x-noiseFalse-3
++ CUDA_CACHE_DISABLE=1
++ python -W ignore ../../run.py --dataset icbhi --data-train ./data/icbhi_train.json --data-val ./data/icbhi_eval.json --exp-dir ./exp/230816_1-icbhi-f10-16-t10-16-b8-lr5e-5-ft_avgtok-base--SSAST-Base-Patch-400-1x-noiseFalse-3 --label-csv ./data/icbhi_class_labels_indices.csv --n_class 4 --lr 5e-5 --n-epochs 50 --batch-size 8 --save_model False --freqm 48 --timem 160 --mixup 0 --bal None --tstride 10 --fstride 10 --fshape 16 --tshape 16 --warmup False --task ft_avgtok --model_size base --adaptschedule False --pretrained_mdl_path .//SSAST-Base-Patch-400.pth --dataset_mean -4.2677393 --dataset_std 4.5689974 --target_length 798 --num_mel_bins 128 --head_lr 1 --noise False --lrscheduler_start 10 --lrscheduler_step 5 --lrscheduler_decay 0.5 --wa False --loss CE --metrics acc
+I am process 210, running on 75fa0b62243c: starting (Fri Aug 18 08:15:39 2023)
+balanced sampler is not used
+---------------the train dataloader---------------
+now using following mask: 48 freq, 160 time
+now using mix-up with rate 0.000000
+now process icbhi
+use dataset mean -4.268 and std 4.569 to normalize the input.
+number of classes is 4
+---------------the evaluation dataloader---------------
+now using following mask: 0 freq, 0 time
+now using mix-up with rate 0.000000
+now process icbhi
+use dataset mean -4.268 and std 4.569 to normalize the input.
+number of classes is 4
+Now train with icbhi with 4142 training samples, evaluate with 2756 samples
+now load a SSL pretrained models from .//SSAST-Base-Patch-400.pth
+pretraining patch split stride: frequency=16, time=16
+pretraining patch shape: frequency=16, time=16
+pretraining patch array dimension: frequency=8, time=64
+pretraining number of patches=512
+fine-tuning patch split stride: frequncey=10, time=10
+fine-tuning number of patches=948
+
+Creating experiment directory: ./exp/230816_1-icbhi-f10-16-t10-16-b8-lr5e-5-ft_avgtok-base--SSAST-Base-Patch-400-1x-noiseFalse-3
+Now starting fine-tuning for 50 epochs
+running on cuda
+Total parameter number is : 87.527 million
+Total trainable parameter number is : 87.527 million
+The mlp header uses 1 x larger lr
+Total mlp parameter number is : 0.005 million
+Total base parameter number is : 87.523 million
+now training with icbhi, main metrics: acc, loss function: CrossEntropyLoss(), learning rate scheduler: <torch.optim.lr_scheduler.MultiStepLR object at 0x7fc1bcbbc4c0>
+The learning rate scheduler starts at 10 epoch with decay rate of 0.500 every 5 epoches
+current #steps=0, #epochs=1
+start training...
+---------------
+2023-08-18 08:16:22.594182
+current #epochs=1, #steps=0
+Traceback (most recent call last):
+  File "../../run.py", line 165, in <module>
+    train(audio_model, train_loader, val_loader, args)
+  File "/workspace/pj_resp/ssast/src/traintest.py", line 151, in train
+    loss = loss_fn(audio_output, torch.argmax(labels.long(), axis=1))
+  File "/workspace/pj_resp/ssast/venvssast/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/workspace/pj_resp/ssast/venvssast/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 1164, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/workspace/pj_resp/ssast/venvssast/lib/python3.8/site-packages/torch/nn/functional.py", line 3014, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: weight tensor should be defined either for all 4 classes or no classes but got weight tensor of shape: []
