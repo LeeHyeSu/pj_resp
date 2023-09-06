@@ -62,19 +62,15 @@ def trainmask(audio_model, train_loader, test_loader, args):
 
         # save from-scratch models before the first epoch
         torch.save(audio_model.state_dict(), "%s/models/audio_model.%d.pth" % (exp_dir, global_step+1))
-        print('start train loader iter')
         for i, (audio_input, _) in enumerate(train_loader):
             # measure data loading time
-            print('start audio input')
             B = audio_input.size(0)
             audio_input = audio_input.to(device, non_blocking=True)
 
-            print('start time update')
             data_time.update(time.time() - end_time)
             per_sample_data_time.update((time.time() - end_time) / audio_input.shape[0])
             dnn_start_time = time.time()
 
-            print('start warm-up')
             # first several steps for warm-up
             if global_step <= 1000 and global_step % 50 == 0:
                 warm_lr = (global_step / 1000) * args.lr
@@ -98,19 +94,15 @@ def trainmask(audio_model, train_loader, test_loader, args):
                 acc = loss
             # if pretrain with joint discriminative and generative objective
             elif args.task == 'pretrain_joint':
-                print('start joint')
                 acc, loss1 = audio_model(audio_input, 'pretrain_mpc', mask_patch=args.mask_patch, cluster=cluster)
                 acc, loss1 = acc.mean(), loss1.mean()
                 loss2 = audio_model(audio_input, 'pretrain_mpg', mask_patch=args.mask_patch, cluster=cluster)
                 loss2 = loss2.mean()
                 loss = loss1 + 10 * loss2
-                print('finish joint')
 
-            print('start backwrard')
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-            print('finish backwrard')
 
             # record loss
             train_acc_meter.update(acc.detach().cpu().item())

@@ -37,7 +37,7 @@ tr_data=/workspace/pj_resp/ssast/src/pretrain/data/icbhi_hflungv1_chestwall.json
 te_data=/workspace/pj_resp/ssast/src/pretrain/data/icbhi/icbhi_eval.json
 dataset_mean=-4.2677393
 dataset_std=4.5689974
-target_length=512
+target_length=1024
 num_mel_bins=128
 
 model_size=base
@@ -48,7 +48,7 @@ fstride=${fshape}
 tstride=${tshape}
 # no class balancing as it implicitly uses label information
 bal=none
-batch_size=24
+batch_size=4
 lr=1e-4
 # learning rate decreases if the pretext task performance does not improve on the validation set
 lr_patience=2
