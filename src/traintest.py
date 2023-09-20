@@ -17,6 +17,11 @@ import numpy as np
 import pickle
 from torch.cuda.amp import autocast,GradScaler
 
+# GPU 메모리 과점유 방지
+torch.cuda.set_per_process_memory_fraction(0.4, device=None)
+# CPU 메모리 과점유 방지
+torch.set_num_threads(16)
+
 def train(audio_model, train_loader, test_loader, args):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print('running on ' + str(device))

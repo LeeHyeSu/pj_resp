@@ -12,21 +12,14 @@
 
 set -x
 # comment this line if not running on sls cluster
-. /data/sls/scratch/share-201907/slstoolchainrc
-source /data/sls/scratch/yuangong/sslast2/sslast2/bin/activate
-export TORCH_HOME=../../pretrained_models
+# . /data/sls/scratch/share-201907/slstoolchainrc
+# source /data/sls/scratch/yuangong/sslast2/sslast2/bin/activate
+# export TORCH_HOME=../../pretrained_models
 mkdir exp
 mkdir slurm_log
 
-if [ -e SSAST-Base-Patch-400.pth ]
-then
-    echo "pretrained model already downloaded."
-else
-    wget https://www.dropbox.com/s/ewrzpco95n9jdz6/SSAST-Base-Patch-400.pth?dl=1 -O SSAST-Base-Patch-400.pth
-fi
-
 pretrain_model=SSAST-Base-Patch-400
-pretrain_path=./${pretrain_model}.pth
+pretrain_path=/workspace/pj_resp/ssast/src/pretrain/pretrained_models/${pretrain_model}.pth
 
 task=pretrain_joint
 mask_patch=400
@@ -48,18 +41,18 @@ fstride=${fshape}
 tstride=${tshape}
 # no class balancing as it implicitly uses label information
 bal=none
-batch_size=4
+batch_size=8
 lr=1e-4
 # learning rate decreases if the pretext task performance does not improve on the validation set
 lr_patience=2
-epoch=10
+epoch=100
 # no spectrogram masking
 freqm=0
 timem=0
 # no mixup training
 mixup=0
 
-exp_dir=./exp/230829_mask01-${model_size}-f${fshape}-t${tshape}-b$batch_size-lr${lr}-m${mask_patch}-${task}-${dataset}
+exp_dir=./exp/230920_mask01-${model_size}-f${fshape}-t${tshape}-b$batch_size-lr${lr}-m${mask_patch}-${task}-${dataset}
 
 CUDA_CACHE_DISABLE=1 python -W ignore ../run.py --dataset ${dataset} \
 --data-train ${tr_data} --data-val ${te_data} --exp-dir $exp_dir \
@@ -69,4 +62,5 @@ CUDA_CACHE_DISABLE=1 python -W ignore ../run.py --dataset ${dataset} \
 --tstride $tstride --fstride $fstride --fshape ${fshape} --tshape ${tshape} \
 --dataset_mean ${dataset_mean} --dataset_std ${dataset_std} --target_length ${target_length} --num_mel_bins ${num_mel_bins} \
 --model_size ${model_size} --mask_patch ${mask_patch} --n-print-steps 100 \
+--pretrained_mdl_path ${pretrain_path} \
 --task ${task} --lr_patience ${lr_patience} --epoch_iter 4000

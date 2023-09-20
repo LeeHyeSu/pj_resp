@@ -8,13 +8,20 @@
 # Author: David Harwath
 # with some functions borrowed from https://github.com/SeanNaren/deepspeech.pytorch
 import csv
+import math
 import json
+import random
 import torchaudio
 import numpy as np
 import torch
 import torch.nn.functional
 from torch.utils.data import Dataset
 import random
+
+# GPU 메모리 과점유 방지
+torch.cuda.set_per_process_memory_fraction(0.4, device=None)
+# CPU 메모리 과점유 방지
+torch.set_num_threads(16)
 
 def get_mean_and_std(dataset):
     """ Compute the mean and std value of mel-spectrogram """
@@ -156,7 +163,10 @@ class AudioDataset(Dataset):
             m = torch.nn.ZeroPad2d((0, 0, 0, p))
             fbank = m(fbank)
         elif p < 0:
-            fbank = fbank[0:target_length, :]
+            # apply sliding window (sec)
+            start = random.randint(0, math.floor(abs(p)/100)) * 100
+            end = start + target_length
+            fbank = fbank[start:end, :]
 
         if filename2 == None:
             return fbank, 0
